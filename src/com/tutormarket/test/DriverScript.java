@@ -52,11 +52,11 @@ public class DriverScript {
 	}
 
 	public static void main(String[] args) throws IOException, NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-		FileInputStream fs = new FileInputStream("/Users/anandmahajan/Desktop/Anoop/VivinoWorkspace/tutormarket/config.properties");
+		FileInputStream fs = new FileInputStream("config.properties");
 		CONFIG = new Properties();
 		CONFIG.load(fs);
 
-		fs = new FileInputStream("/Users/anandmahajan/Desktop/Anoop/VivinoWorkspace/tutormarket/or.properties");
+		fs = new FileInputStream("or.properties");
 		OR = new Properties();
 		OR.load(fs);
 
